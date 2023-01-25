@@ -1,0 +1,48 @@
+.APP {
+   display: flex;
+   justify-content: center;
+   align-items : center;
+   gap: 30px;
+   margin: 20px 0px;
+   min-height: 100vh;
+}
+
+
+.form {
+  display: block;
+  margin-top: 20px;
+  border: 2px solid black;
+  height: 340px;
+  width: 340px;
+  margin: 10px auto;
+}
+input {
+   outline: none;
+   padding : 5px;
+   margin: 5px 10px;
+   width: 80%;
+}
+
+button {
+  background: linear-gradient(to right , blue, violet);
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  margin: 20px 0 0 15px ;
+}
+
+.userName {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.user {
+  font-weight: bold;
+}
+
+h3 {
+  text-align : center;
+  margin: 10px 0px;
+  text-decoration : underline;
+}
